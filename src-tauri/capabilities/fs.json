@@ -1,0 +1,18 @@
+{
+  "identifier": "fs-capability",
+  "platforms": [
+    "macOS",
+    "windows",
+    "linux"
+  ],
+  "windows": [
+    "main"
+  ],
+  "permissions": [    
+    {
+      "identifier": "fs:allow-exists",
+      "allow": [{ "path": "$APPDATA/*" }]
+    }
+    
+  ]
+}

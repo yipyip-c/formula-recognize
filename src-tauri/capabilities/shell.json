@@ -1,0 +1,27 @@
+{
+  "identifier": "shell-capability",
+  "platforms": [
+    "macOS",
+    "windows",
+    "linux"
+  ],
+  "windows": [
+    "main"
+  ],
+  "permissions": [    
+    {
+      "identifier": "shell:allow-execute",
+      "allow": [
+        {
+          "name": "run-screen-shot",
+          "cmd": "cmd",
+          "args": [
+            "/c",
+            "start",
+            "ms-screenclip:"
+          ]
+        }
+      ]
+    }
+  ]
+}
